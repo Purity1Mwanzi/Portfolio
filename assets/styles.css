@@ -220,6 +220,7 @@ margin-right: 20px ;
 /*=== Show menu ===*/
 .show {
   right: 0;
+  background: black;
 }
 
 /*===== HOME =====*/
@@ -547,6 +548,18 @@ align-items: flex-start;
 }
 
 /* ===== MEDIA QUERIES=====*/
+@media only screen and (max-width: 375px) {
+  .row{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      margin: 0;
+      
+    }
+    .section{
+      overflow-x: hidden;
+    }
+    
+  }
 @media screen and (min-width: 768px) {
   body {
     margin-top: 16px;
