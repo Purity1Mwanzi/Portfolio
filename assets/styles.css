@@ -552,8 +552,28 @@ align-items: flex-start;
   body{
     margin:0;
   }
-  .bd-grid{
-  padding-left: 50px;
+  .home{
+  margin:auto;
+    height:100vh;
+}
+.home-title {
+  font-size: 30px;
+  margin-bottom: var(--mb-5);
+}
+  .container2{
+  height: auto;
+  width: auto;
+  padding: 50px;
+  margin:0;
+  color:#fff;
+ }
+ .skills-subtitle{
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness:2px ;
+}
  }
   .row{
       display: grid;
@@ -564,6 +584,9 @@ align-items: flex-start;
     }
     .section{
       overflow-x: hidden;
+      margin:auto;
+      padding-top: 2rem;
+      padding-bottom:1rem;
     }
     .container{
       font-size: 13px;
@@ -582,6 +605,42 @@ align-items: flex-start;
       position: relative;
       overflow-x: hidden;
     }
+  .container2{
+  height: auto;
+  width: auto;
+  padding: 50px;
+  margin:0;
+  color:#fff;
+ }
+ .container:after{
+      content: "";
+      position: absolute;
+      top: 150px;
+      left: -200px;
+      width: 120%;
+      transform: rotate(50deg);
+      background-color: #fff;
+      height: 18px;
+      filter:blur(30px);
+      opacity:(0.5);
+      transition: 1s;
+    }
+    .container:hover :after{
+      width: 225%;
+      top: -100%;
+    }
+    .container:hover{
+      background-color: transparent;
+      transform: translate(-8px);
+      border-color: #d18706;
+    }
+ .skills-subtitle{
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness:2px ;
+}
   .service i {
   font-size: 1.8rem;
   margin-bottom: 10px;
