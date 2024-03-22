@@ -552,8 +552,12 @@ align-items: flex-start;
   body{
     margin:0;
   }
+  .bd-grid{
+  padding-left: 50px;
+ }
   .row{
       display: grid;
+      grid-row-gap: 10px;
       grid-template-columns: repeat(1,1fr);
       margin: 0;
       padding:50px;
@@ -562,13 +566,13 @@ align-items: flex-start;
       overflow-x: hidden;
     }
     .container{
-      font-size: 14px;
+      font-size: 13px;
       text-align: center;
       cursor: pointer;
       background-color:rgba(0, 0, 0, 0);
-      height: 300px;
-      width: 250px;
-      padding: 3% 8%;
+      height: auto;
+      width: auto;
+     
       border: 0.2px solid rgba(16, 221, 77, 0.15);
       border-radius: 8px;
       display: flex;
@@ -577,6 +581,20 @@ align-items: flex-start;
       flex-direction: column;
       position: relative;
       overflow-x: hidden;
+    }
+  .service i {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #d1870698;
+}
+  .service-subtitle{
+  color: #d18706;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+}
+  .section-title {
+      margin-bottom: var(--mb-6);
+      font-size: 26px;
     }
   }
 @media screen and (min-width: 768px) {
