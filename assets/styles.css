@@ -180,11 +180,7 @@ ul.nav-list{
   font-weight: var(--font-semi);
   width: 2.70rem;
 }
-.nav-toggle {
-  color: var(--second-color);
-  font-size: 1.5rem;
-  cursor: pointer;
-}
+
 
 .mode{
 margin-right: 20px ;
