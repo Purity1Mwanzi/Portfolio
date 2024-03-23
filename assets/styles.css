@@ -141,7 +141,6 @@ img {
 @media screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
-    display:flex;
     top: var(--header-height);
     right: -100%;
     width: 80%;
@@ -152,9 +151,7 @@ img {
     
   }
 }
-ul.nav-list{
-  text-align: right;
-}
+
 .nav-item {
   margin-bottom: var(--mb-4);
 }
@@ -575,7 +572,6 @@ align-items: flex-start;
   text-underline-offset: 10px;
   text-decoration-thickness:2px ;
 }
- }
   .row{
       display: grid;
       grid-row-gap: 10px;
