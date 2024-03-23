@@ -552,7 +552,8 @@ align-items: flex-start;
   }
   .home{
   margin:auto;
-    height:90vh;
+    height:60vh;
+    padding: 20px;
 }
 .home-title {
   font-size: 30px;
