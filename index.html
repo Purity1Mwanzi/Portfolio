@@ -1,234 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/styles.css" />
-     
-    <!-- =====BOX ICONS===== -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://kit.fontawesome.com/5e7bd5bd4e.js" crossorigin="anonymous"></script>
-    <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <title>Purity Mwanzi</title>
-  </head>
-  <body>
 
-    
-    <!--===== HEADER =====-->
-    <header class="l-header">
-      <nav class="nav bd-grid">
-        <div>
-          <a href="#home" class="nav-logo"
-            ><img src="assets/img/Mylogo.jpg" class="mylogo" alt="Z"
-          ></a>           
-        </div>
-        <div class="nav-menu" id="nav-menu">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#home" class="nav-link home active">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#service" class="nav-link service">Service</a>
-            </li>
-            <li class="nav-item">
-              <a href="#skills" class="nav-link skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a href="#projects" class="nav-link projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link contact">Contact</a>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="C:\Users\Neki\Downloads\Portfolio-main\Portfolio-main\assets\styles.css" />
+
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/5e7bd5bd4e.js" crossorigin="anonymous"></script>
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Purity Mwanzi</title>
+</head>
+
+<body>
+
+
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#home" class="nav-logo"><img src="assets/img/Mylogo.jpg" class="mylogo" alt="Z"></a>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link home active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#service" class="nav-link service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link expertise">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+      <div class="toggle-btn" id="btn">
+  
+  
+      </div>
+      </div>
+  
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+        <h2 class="home-title">
+          Hello<br /> I'm <span class="home-title-color orange">Purity Mwanzi</span><br />
+          <span class="animate-charcter">A Web Developer with Diverse Expertise</span>
+        </h2>
+
+        <a href="Purity Nekesa Mwanzi cv.pdf" target="_blank" class="button">My Resume</a>
+      </div>
+    </section>
+    <!--------ABOUT----------->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+      <div class="about" id="about">
+        <div class="details-abt-container">
+          <div class="text-container">
+            <h1 class="title">About Me</h1>
+            <p class="abt-description text txt">
+              With a background spanning web development, data analysis, and cybersecurity, I bring a diverse skill set
+              tailored to meet the evolving demands of the digital landscape. I specialize in crafting visually appealing
+              and user-centric interfaces while ensuring seamless functionality. My expertise in cybersecurity encompasses
+              reconnaissance, vulnerability analysis, and penetration testing, contributing to robust threat mitigation
+              strategies. I am driven by a passion for innovation and continuous learning, and I am excited to leverage my
+              skills to make meaningful contributions in the ever-evolving world of technology.
+            </p>
           </div>
-          <div class="toggle-btn" id="btn">
-            
-            <img src="assets/img/moon.png">
+          <div class="timeline">
+            <div class="tab-container">
+              <div class="tab-titles text">
+                <p class="tab-links active-link" onclick="showTab('skills')">Skills</p>
+                <p class="tab-links" onclick="showTab('experience')">Experience</p>
+                <p class="tab-links" onclick="showTab('education')">Education</p>
+              </div>
+              <div class="tab-contents-container">
+                <div class="text tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span> - Web Development</span><br>Frontend with React JS</li>
+                    <li><span> - Cybersecurity</span><br>Defensive and Offensive</li>
+                    <li><span> - Graphic Design</span><br>UI/Ux</li>
+                  </ul>
+                </div>
+                <div class="text tab-contents " id="experience">
+                  <ul>
+                    <li><span> - Jan 2023 - Present</span><br>Software Developer - Upwork
+                     Talent</li>
+                    <li><span> - Oct 2023 - Nov 2023</span><br>Cybersecurity Intern - Communications
+                      Authority</li>
+                    <li><span> - Jan 2020 - Sep 2021</span><br>IT Support Intern - Nairobi Safari Club
+                    </li>
+                  </ul>
+                </div>
+                <div class="text tab-contents " id="education">
+                  <ul>
+                    <li><span> - Jan 2024 - May 2024</span><br>Certified Ethical Hacker<br>USIU,
+                      CyberShujaa Program</li>
+                    <li><span> - Sep 2019 - July 2023</span><br>Bachelor in Business & Information
+                      Technology<br>Africa Nazarene University</li>
+                  </ul>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-
-        <div class="nav-toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
-
-    <main class="l-main">
-      <!--===== HOME =====-->
-      <section class="home bd-grid section" id="home">
-        <div class="home-data">
-          <h2 class="home-title">
-            Hello<br/> I'm <span class="home-title-color orange">Purity Mwanzi</span><br />
-            <span class="animate-charcter">Full Stack Developer</span>
-          </h2>
-
-          <a
-            href="Purity Nekesa Mwanzi cv.pdf"
-            target="_blank"
-            class="button"
-            >Hire Me</a >
-        </div>
-      </section>
-      <!-------SERVICES---->
-      <section class="service section" id="about">
-        <h2 class="section-title">Service</h2>
-        <div class="row">
+      </div>
+    </section>
+    <!-------SERVICES---->
+    <section class="service section" id="service">
+      <h2 class="section-title">Service</h2>
+      <div class="row">
         <div class="container">
           <i class="fa-solid fa-laptop-code"></i>
           <h2 class="service-subtitle">Web Design</h2>
           <p class="service-text">
-            I build responsive ecommerce, lead gen, custom, and informational websites that are attractive, intuitive, and optimized 
+            I build responsive ecommerce, lead gen, custom, and informational websites that are attractive, intuitive,
+            and optimized
         </div>
         <div class="container">
           <i class="fa-solid fa-laptop-code"></i>
           <h2 class="service-subtitle">Web Development</h2>
           <p class="service-text">
-            Web developers make your vision a reality. From front-end to back-end, I make sure every aspect of your website is executed with precision.
+            Web developers make your vision a reality. From front-end to back-end, I make sure every aspect of your
+            website is executed with precision.
           </p>
         </div>
         <div class="container">
           <i class="fa fa-wordpress"></i>
           <h2 class="service-subtitle">Wordpress</h2>
           <p class="service-text">
-           I implement responsive web designs that will adjust to any screen size or platform for the best user experience.
+            I implement responsive web designs that will adjust to any screen size or platform for the best user
+            experience.
           </p>
         </div>
-          
-        </div>
-        </div>
-        </section>
-        <!---SKILLS-->
-        <section class="skills section" id="skills">
-          <h2 class="section-title">Skills</h2>
-          
-          <div class="container2" id="skill">
-            <h2 class="skills-subtitle">Technical Skills</h2>
-               <div class="Technical-bars">
-                  <div class="bars"><i style="color:#c95d2e" class="bx bxl-html5 skills-icon"></i>
-                    <div class="info">
-                      <span>HTML5</span>
-                    </div>
-                      <div class="progress-line html">
-                        <span></span>
-                      </div>
-                  </div>
-                </div>
-              
-                <div class="Technical-bars">
-                  <div class="bars"><i style=" color:#147bbc"class="bx bxl-html5 skills-icon"></i>
-                    <div class="info">
-                      <span>css </span>
-                    </div>
-                      <div class="progress-line css">
-                        <span></span>
-                      </div>
-                  </div>
-                </div>
-                <div class="Technical-bars">
-                  <div class="bars"><i style="color:#c32ec9"class="fab fa-python"></i>
-                    <div class="info">
-                      <span>PYTHON</span>
-                    </div>
-                      <div class="progress-line python">
-                        <span></span>
-                      </div>
-                  </div>
-                </div>
-                <div class="Technical-bars">
-                  <div class="bars"><i style="color:#b0bc1e"class="fab fa-js"></i>
-                    <div class="info">
-                      <span>JAVACSRIPT</span>
-                    </div>
-                      <div class="progress-line javascript">
-                        <span></span>
-                      </div>
-                  </div>
-                </div>
-          </div>
-        </div>
-      </section>
-      <!--====PROJECT====-->
-      <section class="projects section" id="projects">
-        <h2 class="section-title">Projects</h2>
 
-        <div class="project-container">
-          <div class="project-img">
-            <img src="assets/img/Neki.jpeg" alt="asp.net" />
-            <p class="project-title">Web Shop</p>
-            <p class="project-subtitle">
-              Developed a dynamic e-commerce website for a clothing retailer, leveraging PHP (Laravel)
-              and JavaScript technologies. Integrated robust backend functionalities using Laravel to
-              manage product inventory, user accounts, and order processing, while implementing
-              JavaScript for interactive user interfaces and dynamic content loading. Collaborated closely
-              with the client to understand requirements and deliver a tailored solution that aligned
-              with their brand identity and business objectives. <br />
-              <!-- <br />
-              A collaborative project, built in 5 days by a team of 4 developers
-              and 2 UI/UX designers. <br /> -->
-              <br />HTML | CSS | JavaScript | PHP
-            </p>
-            <div class="project-btns">
-              <a
-                href="https://neki.zubrecreative.com/"
-                target="_blank"
-                class="small-btn button"
-              >
-                Live<i class="bx bx-link-external"></i>
-              </a>
+      </div>
+      </div>
+    </section>
+    <!---SKILLS-->
+    <section class="skills section" id="expertise">
+      <p class="section-intro">Explore my</p>
+      <h2 class="section-title">Skills</h2>
+      <div class="expertise-section" id="expertise">
+        <div class="skills-container">
+          <div class="skill-card tile">
+            <h2 class="skill-category">Web Development</h2>
+            <div class="skills-list">
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">HTML</h3>
+                  <p class="skill-level">Experienced</p>
+                </div>
+              </div>
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">CSS</h3>
+                  <p class="skill-level">Experienced</p>
+                </div>
+              </div>
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">Javascript</h3>
+                  <p class="skill-level">Intermediate</p>
+                </div>
+              </div>
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">Vue JS</h3>
+                  <p class="skill-level">Intermediate</p>
+                </div>
+              </div>
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">React JS</h3>
+                  <p class="skill-level">Intermediate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card tile">
+            <h2 class="skill-category">Cybersecurity</h2>
+            <div class="skills-list">
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">Malware Analysis</h3>
+                  <p class="skill-level">Intermediate</p>
+                </div>
+              </div>
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">Digital Forensics</h3>
+                  <p class="skill-level">Intermediate</p>
+                </div>
+              </div>
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">Penetration Testing</h3>
+                  <p class="skill-level">Intermediate</p>
+                </div>
+              </div>
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">Computer Networks</h3>
+                  <p class="skill-level">Intermediate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card tile">
+            <h2 class="skill-category">Design</h2>
+            <div class="skills-list">
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">Malware Analysis</h3>
+                  <p class="skill-level">Intermediate</p>
+                </div>
+              </div>
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">Digital Forensics</h3>
+                  <p class="skill-level">Intermediate</p>
+                </div>
+              </div>
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">Penetration Testing</h3>
+                  <p class="skill-level">Intermediate</p>
+                </div>
+              </div>
+              <div class="skill-item"><img
+                  src="data:image/png;base64,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"
+                  alt="sunicon" class="skill-icon">
+                <div class="skill-info">
+                  <h3 class="skill-name">Computer Networks</h3>
+                  <p class="skill-level">Intermediate</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        </section>
-    </main>
-
-    <!--===== FOOTER + CONTACT=====-->
-    <footer class="footer section" id="contact">
-      <h2 class="section-title">Get in touch</h2>
-      <p class="footer-title">Purity Mwanzi</p>
-      <div class="footer-social">
-        <a
-          href="https://www.linkedin.com/in/purity-mwanzi-2b2852194"
-          target="_blank"
-          class="footer-icon"
-          ><i class="bx bxl-linkedin">
-            <br />
-            LinkedIn</i
-          ></a
-        >
-        <a
-          href="https://github.com/Purity1Mwanzi"
-          target="_blank"
-          class="footer-icon"
-          ><i class="bx bxl-github">
-            <br />
-            GitHub</i
-          ></a
-        >
-        <a
-          href="mailto:mwanzip89@gmail.com"
-          target="_blank"
-          class="footer-icon"
-          ><i class="bx bx-mail-send">
-            <br />
-            E-mail</i
-          ></a
-        >
-        <a href="tel:+254745440001" target="_blank" class="footer-icon"
-          ><i class="bx bx-phone">
-            <br />
-            Phone</i
-          ></a
-        >
       </div>
-      <p>&#169; 2024 copyright all right reserved</p>
-    </footer>
+    </section>
+    <!--====PROJECT====-->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
 
-    <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
-   
-  </body>
+      <div class="project-container">
+        <div class="project-img">
+          <img src="assets/img/Neki.jpeg" alt="asp.net" />
+          <p class="project-title">Web Shop</p>
+          <p class="project-subtitle">
+            Developed a dynamic e-commerce website for a clothing retailer, leveraging PHP (Laravel)
+            and JavaScript technologies. Integrated robust backend functionalities using Laravel to
+            manage product inventory, user accounts, and order processing, while implementing
+            JavaScript for interactive user interfaces and dynamic content loading. Collaborated closely
+            with the client to understand requirements and deliver a tailored solution that aligned
+            with their brand identity and business objectives. <br />
+            <!-- <br />
+              A collaborative project, built in 5 days by a team of 4 developers
+              and 2 UI/UX designers. <br /> -->
+            <br />HTML | CSS | JavaScript | PHP
+          </p>
+          <div class="project-btns">
+            <a href="" target="_blank" class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://neki.zubrecreative.com/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="C:\Users\Neki\Downloads\Portfolio-main\Portfolio-main\assets\img\Signup Page.png" alt="asp.net" />
+          <p class="project-title">Signup Page</p>
+          <p class="project-subtitle">
+            I designed a sign-up page aimed at enhancing user registration and overall experience. Beginning with
+            thorough
+            research, I analyzed competitor sign-up processes and user feedback to guide my design decisions. Using
+            Figma for
+            design and Figjam for brainstorming, I iteratively created wireframes and prototypes based on user testing
+            insights.
+            The finalized design boasts a responsive layout, clear call-to-action elements, and user-friendly form
+            fields to
+            optimize usability. <br />
+
+            <br />Figma | Figjam
+          </p>
+          <div class="project-btns">
+            <a href="" target="_blank" class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://www.figma.com/community/file/1390322205169838439/signup-page" target="_blank"
+              class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=====CONTACT======-->
+    <section class="contact section" id="contact">
+      <div class="contact" id="contact">
+        <h1 class="title contact-main-title" style="text-align: center; color:white;">Get in Touch</h1>
+        <div class="contact-section">
+          <div class="contact-left">
+            <h3 class="hero-title contact-title">Let's talk</h3>
+            <p class="text">I'd love to hear from you!</p>
+            <p class="text">Whether you have a question or just want to say hi, feel free to reach out.</p>
+            <div class="contact-details">
+              <div class="contact-detail">
+                <a href="mailto:mwanzip89@gmail.com" target="_blank" class="footer-icon">
+                  <i class="bx bx-mail-send"></i>
+                </a>
+                <a href="mailto:bilhamwengi34@gmail.com" class="contact-link text">mwanzip89@gmail.com</a>
+              </div>
+              <div class="contact-detail">
+                <a href="https://www.linkedin.com/in/purity-mwanzi-2b2852194" target="_blank" class="footer-icon">
+                  <i class="bx bxl-linkedin"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/bilha-mwengi/" target="_blank" rel="noopener noreferrer" class="contact-link text">
+                  LinkedIn
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <form class="contact-right"><input type="hidden" name="access_key"
+              value="14eec43c-6ba6-4e1d-b291-337da78a53bd"><label for="name" class="text">Name</label><input type="text"
+              placeholder="Enter your name" name="name" required=""><label for="email" class="text">Email</label><input
+              type="email" placeholder="Enter your email" name="email" required=""><label for="message"
+              class="text">Message</label><textarea id="message" placeholder="Write your message here" name="message"
+              rows="7" required=""></textarea>
+            <div>
+              <iframe
+                src="https://newassets.hcaptcha.com/captcha/v1/a8cd801/static/hcaptcha.html#frame=checkbox&amp;id=0cltjitihwk8&amp;host=bilha-mwengi.vercel.app&amp;sentry=true&amp;reportapi=https%3A%2F%2Faccounts.hcaptcha.com&amp;recaptchacompat=true&amp;custom=false&amp;hl=en&amp;tplinks=on&amp;pstissuer=https%3A%2F%2Fpst-issuer.hcaptcha.com&amp;sitekey=8a04f140-f98c-47f6-9f74-cfa26be28214&amp;theme=light&amp;origin=https%3A%2F%2Fbilha-mwengi.vercel.app"
+                tabindex="0" frameborder="0" scrolling="no"
+                allow="private-state-token-issuance 'src'; private-state-token-redemption 'src'"
+                title="Widget containing checkbox for hCaptcha security challenge" data-hcaptcha-widget-id="0cltjitihwk8"
+                data-hcaptcha-response=""
+                style="pointer-events: auto; width: 303px; height: 78px; overflow: hidden;">
+              </iframe>
+              <textarea
+                id="g-recaptcha-response-0cltjitihwk8" name="g-recaptcha-response"
+                style="display: none;">
+              </textarea>
+              <textarea id="h-captcha-response-0cltjitihwk8" name="h-captcha-response"
+                style="display: none;">
+              </textarea>
+              </div>
+            <button type="submit" class="contact-button resume-btn">Send
+              Message
+            </button>
+          </form>
+        </div><span class="text"></span>
+      </div>
+    </section>
+
+  </main>
+
+  <!--===== FOOTER + CONTACT=====-->
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">Get in touch</h2>
+    <p class="footer-title">Purity Mwanzi</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/purity-mwanzi-2b2852194" target="_blank" class="footer-icon"><i
+          class="bx bxl-linkedin">
+          <br />
+          LinkedIn</i></a>
+      <a href="https://github.com/Purity1Mwanzi" target="_blank" class="footer-icon"><i class="bx bxl-github">
+          <br />
+          GitHub</i></a>
+      <a href="mailto:mwanzip89@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send">
+          <br />
+          E-mail</i></a>
+      <a href="tel:+254745440001" target="_blank" class="footer-icon"><i class="bx bx-phone">
+          <br />
+          Phone</i></a>
+    </div>
+    <p>&#169; 2024 copyright all right reserved</p>
+  </footer>
+
+  <script>
+    function showTab(tabId) {
+      const tabs = document.querySelectorAll('.tab-contents');
+      const links = document.querySelectorAll('.tab-links');
+
+      tabs.forEach(tab => {
+        if (tab.id === tabId) {
+          tab.classList.add('active-tab');
+        } else {
+          tab.classList.remove('active-tab');
+        }
+      });
+
+      links.forEach(link => {
+        if (link.textContent.toLowerCase() === tabId) {
+          link.classList.add('active-link');
+        } else {
+          link.classList.remove('active-link');
+        }
+      });
+    }
+  </script>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
