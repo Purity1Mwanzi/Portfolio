@@ -99,7 +99,7 @@ img {
   position: relative;
   font-family: neon;
   font-size: var(--h2-font-size);
-  color: #dda15b;
+  color: white;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -114,7 +114,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: #dda15b;
+  background-color: white;
 }
 
 .section {
@@ -402,7 +402,7 @@ section.service {
   font-family: neon;
   font-size: 28px;
   font-weight: 700;
-  color: #dda15b;
+  color: white;
   margin-top: var(--mb-2);
   margin-bottom: 8px;
   text-align: center;
@@ -417,7 +417,7 @@ section.service {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: #fdb147;
+  background-color: white;
 }
 
 
@@ -610,7 +610,7 @@ li {
   font-size: 15px;
   font-weight: 500;
   margin: 0;
-  color: #555
+  color: #d3d3d3;
 }
 
 .skill-level {
@@ -668,6 +668,7 @@ li {
 }
 
 /* ===== Projects =====*/
+
 .project-container {
   gap: 2rem;
   max-width: 1024px;
@@ -682,6 +683,7 @@ li {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  background-color: #3c4043;
 }
 
 .project-img img {
@@ -709,7 +711,7 @@ li {
 .project-subtitle {
   margin-bottom: var(--mb-4);
   padding-bottom: 3.5rem;
-  color: rgba(255, 255, 255, 0.521);
+  color: #d3d3d3;
   font-size: 14px;
 }
 
@@ -735,6 +737,9 @@ li {
   margin: 80px 170px;
 
 }
+.section-title{
+  text-align: center;
+}
 
 .contact-section {
   display: flex;
@@ -757,14 +762,14 @@ li {
 .contact-left p {
   max-width: 500px;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.877);
+  color: #d3d3d3;
 }
 
 .contact-details {
   display: flex;
   flex-direction: column;
   gap: .7rem;
-  color: rgba(255, 255, 255, 0.877);
+  color: #d3d3d3;
 }
 
 .contact-detail {
@@ -778,7 +783,7 @@ li {
   font-weight: 500;
   font-size: 18px;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.877);
+  color: #d3d3d3;
 }
 
 .contact-link:hover {
