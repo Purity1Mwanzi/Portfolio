@@ -542,7 +542,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 6rem;
 }
 
 .skill-card {
@@ -846,11 +846,11 @@ textarea:focus {
 
 .contact-button {
   align-self: start;
-  color: rgba(255, 255, 255, 0.877);
+  color: rgba(0, 0, 0, 0.76);
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: 30px;
-  background-color: #f09141;
+  background-color: #dda15b;
 }
 
 
@@ -889,37 +889,24 @@ textarea:focus {
 
 /* ======- FOOTER -====== */
 .footer {
-  margin: 50px 170px;
   display: flex;
-  flex-direction: column;
-  gap: 30px;
+  background-color: #121212;
+  height: 10vh;
 }
 
 .footer-top p {
   max-width: 400px;
-}
-
-.footer-bottom {
-  margin-bottom: 50px;
-}
-
-.footer-logo {
-  font-size: 2rem;
-  background: linear-gradient(101deg,#3f5efbfa,#fc466b 26%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  color:white;
+  text-align: center;
+  margin-left: 80px;
 }
 
 @media (max-width: 1024px) {
-  .footer {
-      margin:50px 100px;
-  }
+  
 }
 
 @media (max-width: 768px) {
-  .footer {
-      margin:50px;
-  }
+ 
 
   .footer-top p {
       max-width: 100%;
@@ -927,17 +914,13 @@ textarea:focus {
 }
 
 @media (max-width: 480px) {
-  .footer {
-      margin:20px;
-  }
+  
 
   .footer-top p {
-      font-size: 15px;
+      font-size: 13px;
+      margin-left: 20px;
   }
 
-  .footer-bottom p {
-      font-size: 14px;
-  }
 }
 
 
