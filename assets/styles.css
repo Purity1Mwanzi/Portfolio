@@ -483,7 +483,7 @@ section.service {
 }
 
 .tab-contents ul li span {
-  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 100%);
+  background: linear-gradient(90deg, rgba(228,122,122,1) 0%, rgba(221,161,91,1) 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -683,7 +683,7 @@ li {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
-  background-color: #3c4043;
+  border: 0.2px solid #69696942;
 }
 
 .project-img img {
